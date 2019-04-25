@@ -27,7 +27,7 @@ class Config:
             self.some_argument = "NONE"
 
 
-if __name__ == "__main__":
+if (__name__ == "__main__"):
     signal.signal(signal.SIGINT, signal_handler)
     global config
     config = Config()
