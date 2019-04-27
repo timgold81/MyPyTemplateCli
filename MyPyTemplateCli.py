@@ -9,6 +9,7 @@ def signal_handler(signal, frame):
     print("\nStopping PROGRAM NAME. Thanks for using.")
     print("Please visit https://github.com/timgold81/")
     print("contact timgold@gmail.com\n")
+    exit()
 
 
 def myPause(sec):
