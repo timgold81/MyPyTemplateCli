@@ -12,7 +12,7 @@ def signal_handler(signal, frame):
 
 
 def myPause(sec):
-    dev = 50
+    dev = 50  # devision - how many times in second to pause
     maximum = sec*dev
     i = 0
     while(config.loop and i < maximum):
